@@ -89,7 +89,7 @@ def extract_flights():
 
         # For now, return empty DataFrame
         # print("⚠️  Flight extraction not yet implemented")
-        return pd.DataFrame()
+        return df
         
     except requests.exceptions.RequestException as e:
         print(f"❌ Network error fetching flight data: {e}")
